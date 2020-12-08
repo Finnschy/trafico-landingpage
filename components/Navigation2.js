@@ -5,7 +5,7 @@ const Navigation2 = () => {
         <nav>
             <ul>
                 <Link href="/">
-                    <a><img src="/logo-traffico.svg" alt="" /></a>
+                    <a className="logo"><img src="/logo-traffico.svg" alt="" /></a>
                 </Link>
                 <li>
                     <Link href="/about">
@@ -26,14 +26,24 @@ const Navigation2 = () => {
 
 
     <style jsx>{`
+
+    nav {
+        padding-bottom: 5rem;
+    }
         ul {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            width: 65%;
-            padding-top: 1rem;
-            margin-left: 10rem;
             color: #fff;
+            margin: 0 auto;
+        }
+
+        li {
+            margin-right: 5rem;
+        }
+
+        .logo {
+        margin-right: 40rem;
         }
     `}</style>
         </nav>

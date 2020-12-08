@@ -1,22 +1,15 @@
-const AboutUs = () => {
-    return (
+const HowTo = () => {
+    return (  
         <section>
+            <figure>
+                <img src="/second-section_illustration.png" alt=""/>
+            </figure>
             <article>
-                <h2>ABOUT US</h2>
-                <p>The occupational traffic permit is one of the most important things in the company when carrying out freight transport.  In fact, it is a prerequisite for doing business traffic at all. </p>
-
-                <div>
-                    <p>How do you do when you need to obtain <br/>
-                        a commercial traffic permit for freight transport to your business?</p>
-                </div>
+                <h2>HOW TO APPLY</h2>
+                <p>When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO. </p>
             </article>
 
-            <figure>
-                <img src="/first-section_Illustration.png" alt=""/>
-            </figure>
-
-
-    <style jsx>{`
+            <style jsx>{`
         section{
             display: flex;
             justify-content: center;
@@ -30,6 +23,7 @@ const AboutUs = () => {
         }
         article {
             width: 30%;
+            margin-top: 9rem;
         }
 
         article > p {
@@ -51,16 +45,16 @@ const AboutUs = () => {
             padding: 4rem;
             font-size: 1.25rem;
             line-height: 1.8rem;
-            border-radius: 5px;
+            
         }
 
         img {
-            margin-left: 10rem;
+            margin-right: 10rem;
         }
     
     `}</style>
         </section>
     );
 }
-
-export default AboutUs;
+ 
+export default HowTo;

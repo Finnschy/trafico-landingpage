@@ -5,7 +5,7 @@ const Navigation = () => {
         <nav>
             <ul>
                 <Link href="/">
-                    <a id="logo"><img src="/logo-traffico.svg" alt=""/></a>
+                    <a className="logo"><img src="/logo-traffico.svg" alt=""/></a>
                 </Link>
                 <li>
                     <Link href="/about">
@@ -46,7 +46,7 @@ const Navigation = () => {
             border-radius: 5px;
         }
 
-        #logo {
+        .logo {
             margin-right: 40rem;
         }
 
